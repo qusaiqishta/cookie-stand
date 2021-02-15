@@ -28,3 +28,22 @@ h3{
 #nn li{
     font-size: x-large;
 }
+
+
+table {
+    border: solid black 2px;
+    border-collapse: collapse;
+  }
+  th {
+    border: solid black 2px;
+  }
+  
+  td{
+    border: solid black 2px;
+    
+  }
+  #hh{
+      text-align: left;
+  }
+
+  
