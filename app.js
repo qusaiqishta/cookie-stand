@@ -192,6 +192,11 @@ console.log(Seattle);
     headerRow.appendChild(th14);
     th14.textContent = operationHour[13];
 
+    let th15 = document.createElement('th');
+    headerRow.appendChild(th15);
+    th15.textContent = 'Total';
+
+    
 
 
 
@@ -274,9 +279,12 @@ Location.prototype.render1 = function () {
 
 
 
-    let th16S = document.createElement('td');
-    headerRowS.appendChild(th16S);
-    th16S.textContent = this.result[14];
+    
+    
+    let th17S = document.createElement('td');
+    headerRowS.appendChild(th17S);
+    th17S.textContent =this.result[0]+this.result[1]+this.result[2]+this.result[3]+this.result[4]+this.result[5]+this.result[6]+this.result[7]+this.result[8]+this.result[9]+this.result[10]+this.result[11]+this.result[12]+this.result[13];
+
 }
 
 
@@ -358,9 +366,11 @@ Location.prototype.render2 = function () {
 
 
 
-    let th16t = document.createElement('td');
-    headerRowt.appendChild(th16t);
-    th16t.textContent = this.result[14];
+
+     
+    let th17t = document.createElement('td');
+    headerRowt.appendChild(th17t);
+    th17t.textContent =this.result[0]+this.result[1]+this.result[2]+this.result[3]+this.result[4]+this.result[5]+this.result[6]+this.result[7]+this.result[8]+this.result[9]+this.result[10]+this.result[11]+this.result[12]+this.result[13];
 }
 
 
@@ -440,9 +450,11 @@ Location.prototype.render3 = function () {
 
 
 
-    let th16d = document.createElement('td');
-    headerRowd.appendChild(th16d);
-    th16d.textContent = this.result[14];
+   
+     
+    let th17d = document.createElement('td');
+    headerRowd.appendChild(th17d);
+    th17d.textContent =this.result[0]+this.result[1]+this.result[2]+this.result[3]+this.result[4]+this.result[5]+this.result[6]+this.result[7]+this.result[8]+this.result[9]+this.result[10]+this.result[11]+this.result[12]+this.result[13];
 }
 
 
@@ -526,9 +538,12 @@ Location.prototype.render4 = function () {
 
 
 
-    let th16p = document.createElement('td');
-    headerRowp.appendChild(th16p);
-    th16p.textContent = this.result[14];
+    
+
+     
+    let th17p = document.createElement('td');
+    headerRowp.appendChild(th17p);
+    th17p.textContent =this.result[0]+this.result[1]+this.result[2]+this.result[3]+this.result[4]+this.result[5]+this.result[6]+this.result[7]+this.result[8]+this.result[9]+this.result[10]+this.result[11]+this.result[12]+this.result[13];
 }
 
 
@@ -615,9 +630,12 @@ Location.prototype.render5 = function () {
 
 
 
-    let th16l = document.createElement('td');
-    headerRowl.appendChild(th16l);
-    th16l.textContent = this.result[14];
+    
+
+     
+    let th17l = document.createElement('td');
+    headerRowl.appendChild(th17l);
+    th17l.textContent =this.result[0]+this.result[1]+this.result[2]+this.result[3]+this.result[4]+this.result[5]+this.result[6]+this.result[7]+this.result[8]+this.result[9]+this.result[10]+this.result[11]+this.result[12]+this.result[13];
 }
 
 
@@ -699,9 +717,10 @@ th15f.textContent = this.result[13];
 
 
 
-let th16l = document.createElement('td');
-headerRowl.appendChild(th16l);
-th16l.textContent = this.result[14];
+
+let th17f = document.createElement('td');
+    headerRowf.appendChild(th17f);
+    th17f.textContent =this.result[0]+this.result[1]+this.result[2]+this.result[3]+this.result[4]+this.result[5]+this.result[6]+this.result[7]+this.result[8]+this.result[9]+this.result[10]+this.result[11]+this.result[12]+this.result[13];
 }
 
 
