@@ -1,7 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #immg {
+    
+    background-image: url("https://previews.123rf.com/images/imelnyk/imelnyk1506/imelnyk150600065/41185724-cookies-background.jpg");
+  
+    height: 100%; 
+  
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+main{
+    background-color:wheat;
+}
+footer{
+    background-color:wheat;
+
+}
+
+
+
 #mm ul li{
     display: inline-block;
     padding: 170px;
     font-size: x-large;
+    font-weight: bold;
+    color: brown;
 }
 
 h1 {
@@ -25,11 +56,6 @@ h3{
 
 }
 
-#nn li{
-    font-size: x-large;
-}
-
-
 table {
     border: solid black 2px;
     border-collapse: collapse;
@@ -52,4 +78,38 @@ table {
       height: 400;
       text-align: center;
   }
+  h3{
+      font-size: x-large;
+      color: blueviolet;
+  }
   
+  fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+    width: 40%;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:burlywood;
+  }
+
+  main p{
+      text-align:justify;
+      width: 50%;
+  }
+  
+
+ 

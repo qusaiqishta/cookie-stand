@@ -1,75 +1,118 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
 
-            <div>
-                 <img src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png">
-                 
-                 <h1>Salmon Cookies</h1>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <div id="immg">
+            <img style="width: 300px;" src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png">
+
+            <h1>Salmon Cookies</h1>
             <nav id="mm">
                 <ul>
-                    <li > <a href="#"></a> Locations </li>
+                    <li> <a href="#"></a> Locations </li>
                     <li><a href="#"></a> performance</li>
                     <li><a href="#"></a> Contact Us</li>
-                </ul>            
+                </ul>
             </nav>
-            </div>
-        </header>
-        <main>
+        </div>
+    </header>
+    <main>
 
-                <h2>About Us</h2>
-                <p>Established in 2021 , with little resources and alot of hope and skills and now we are the in market and our quality is the best witness
-                </p>
-
-                <p >If you want to tast the delicious cokie ever , come and do not forget to bring all your friend and family</p>
+        <h2>About Us</h2>
+        <p>Established in 2021 , with little resources and alot of hope and skills and now we are the in market and our
+            quality is the best witness.  If you want to tast the delicious cokie ever , come and do not forget to bring all your friend and family
+       </p>
         <br>
-            <ul id="nn">
-                <li>
-                    <h3>working hours</h3>
-                     7 days a week , from 8:00 am to 10:00 pm
-                </li>
-                <br>
-               <li >
-                   <h3>Discounts</h3>
-                  For every person come with you you will get a discount of 10 percent <br>
-               </li>
-               <br>
-            </ul>
+       
+           
+                <h2>working hours</h2>
+               <p> 7 days a week , from 8:00 am to 10:00 pm</p>
             
-            </article>
-            <p>
-                <h1 id="hh">Number of cookies sold per hour</h1> <br>
-
-            <div id="parent5"></div>
-            </p>
             <br>
-            <p>
-                <h1 style="text-align:left;">
-                    <a href="index.html">Some pictures of our cokies</a>
-                </h1>
-                
-               
-            </p>
-        </main>
-        <br>
-        
+            
+                <h2>Discounts</h2>
+               <p> For every person come with you you will get a discount of 10 percent </p> <br>
+            
+            <br>
+
       
-        
+        <p>
+        <h1 id="hh">Number of cookies sold per hour per location</h1> <br>
+        <h3>fill the form to know number of cookies sold per another city</h3> <br>
+      
+
+            <form action="" id="locationform">
+
+                <fieldset>
 
 
-        <footer>
-            <h3>Salmon Cookies, Inc. Established 2021</h3>
-            &copy;2021 
-          
-        </footer>
-        <script src="app.js"></script>
-    </body>
-        
+                    <label for="nameField">Name</label>
+
+                    <input required type="text" id="nameField" name="nameField" autocomplete="off">
+                    <br>
+                    <br>
+
+
+                    <label for="mincustomerfield">Minimum number Of Customer</label>
+
+                    <input required min="1" type="text" id="mincustomerfield" name="mincustomerfield" placeholder="add an integer number">
+                    <br>
+                    <br>
+                    <label for="maxcustomerfield">Maximum number Of Customer</label>
+
+                    <input required max="20" type="text" id="maxcustomerfield" name=" maxcustomerfield" placeholder="add an integer number">
+
+
+                    <br>
+                    <br>
+
+                    <label for="Avg">Average number Of Customer</label>
+
+                    <input type="text" id="Avg" name= "Avg2" placeholder="add a number">
+
+                    <br>
+                    <br>
+
+
+                    <input type="submit" value="Add a location">
+
+                </fieldset>
+            </form>
+      
+<br>
+
+        <div id="parent5"></div>
+        </p>
+        <br>
+        <p>
+        <h1 style="text-align:left;">
+            <a href="index.html">Some pictures of our cokies</a>
+        </h1>
+
+
+        </p>
+    </main>
+    
+
+
+
+
+
+    <footer>
+        <h3>Salmon Cookies, Inc. Established 2021</h3>
+
+        &copy;2021
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+
 
 </html>
