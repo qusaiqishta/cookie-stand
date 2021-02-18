@@ -238,7 +238,9 @@ Location.prototype.render5 = function () {
 
 Location.prototype.render6 = function () {
 
-    let headerRowf = document.createElement('tr');
+    let headerRowf= document.createElement('tr');
+    headerRowf.setAttribute('id','po');
+
     tableName.appendChild(headerRowf);
 
     let th1f = document.createElement('th');
@@ -277,6 +279,8 @@ event.preventDefault();
     console.log(minCustomer0);
     console.log(maxCustomer);
     console.log(Avg);
+    let total2=document.getElementById('po');
+    total2.remove();
 
 
 
@@ -310,6 +314,7 @@ event.preventDefault();
         
         }
         addlocation.render7();
+        total.render6();
     
 }
 
